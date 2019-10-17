@@ -29,4 +29,3 @@ class Person
   end
 end
 
-initialize("Allison", true)
