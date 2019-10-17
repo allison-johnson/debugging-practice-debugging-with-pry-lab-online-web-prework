@@ -13,4 +13,5 @@ def turtle_traits(turtles)
   turtles.each do |turtle|
     traits << turtle[:traits]
   end
+  traits
 end
