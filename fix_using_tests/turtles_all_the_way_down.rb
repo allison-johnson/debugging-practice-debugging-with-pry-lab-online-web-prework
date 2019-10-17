@@ -11,8 +11,8 @@ end
 def turtle_traits(turtles)
   traits = []
   turtles.each do |turtle|
-    if
-      
+    #if
+      #blah
     else
       traits << turtle[:traits]
     end #if
