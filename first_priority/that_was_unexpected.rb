@@ -2,7 +2,7 @@ class Person
   attr_accessor :name, :candy_lover
 
   def initialize(name, candy_lover)
-    
+    binding.pry
     @name = name
     @candy_lover = candy_lover
   end
@@ -28,3 +28,5 @@ class Person
     end
   end
 end
+
+initialize("Allison", true)
