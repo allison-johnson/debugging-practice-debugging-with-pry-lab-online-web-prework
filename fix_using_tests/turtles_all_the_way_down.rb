@@ -11,7 +11,7 @@ end
 def turtle_traits(turtles)
   traits = []
   turtles.each do |turtle|
-    turtle[:traits].is_a(Array)? traits << turtle[:traits] : traits << [turtle[:traits]]
+    turtle[:traits].is_a?(Array)? traits << turtle[:traits] : traits << [turtle[:traits]]
     #if
       #blah
     #else
